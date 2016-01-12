@@ -6,7 +6,7 @@ import (
 	"unsafe"
 )
 
-// \#include "ui.h"
+
 import "C"
 
 // no need to lock this; only the GUI thread can access it
